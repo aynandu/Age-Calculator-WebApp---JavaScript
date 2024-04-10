@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg,rgb(83, 29, 245),rgb(153, 122, 220));
+}
+.container{
+    width: 100%;
+    height:100vh;
+}
+.container h1{
+    margin:100px 100px;
+    color: white;
+}
+.date-box{
+    width: 400px;
+    background: rgb(165, 114, 237);
+    padding: 20px;
+    margin:80px 100px;
+    
+}
+.date-box input{
+    width: 250px;
+    height: 40px;
+    margin-right: 10px;
+    border: 0;
+    border-radius: 6px;
+    text-align: left;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.date-box button{
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    border: 0;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+.date-box button:hover{
+    background-color: rgb(6, 240, 45);
+    color: white;
+}
+.value{
+    margin-left: 100px;
+    color: white;
+}
+.result{
+    color: white;
+     margin-left:100px;
+}
